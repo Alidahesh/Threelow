@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+   
+    while{
+        scanf("Type Role to play!! %@", role);
+        if ( role isEqualTo "role"){
+            printf("%@", Dice.result);
+        }
     }
     return 0;
 }
